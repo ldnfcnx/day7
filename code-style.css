@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    color: #fff;
+    height: 40px;
+    background-color: black;
+    padding: 20px;
+}
+nav>div{
+    width:70%;
+    margin: 0 15%;
+}
+nav a{
+    color: #fff;
+}
+nav>div>a{
+    font-size: 2em;
+    float: left;
+} 
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+#banner{
+    width: 100%;
+    background-color: #0af;
+    height: 400px;
+}
+#banner ul{
+    display: inline-block;
+    position: relative;
+    top:90%;
+    right: -75%;
+}
+#banner ul li{
+    background-color: rgba(255,255,255,0.5);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+#banner ul .active{
+    background-color: rgba(255,255,255,0.8);
+    height: 30px;
+    position: relative;
+    top:-10px;
+}
+main{
+    background-color: #fff;
+    color: #000;
+}
+main>header{
+    height: 60px;
+    border-bottom: 1px solid #c5c5c5;
+}
+main>header ul{
+    width: 70%;
+    margin: 0 15%;
+    position: relative;
+    bottom: -29px;
+}
+main>header ul li{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 20% 20% 0 0;
+    background-color:#bfbfbf;
+    border: 1px solid #c5c5c5; 
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+main>header ul .active{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+footer{
+    margin: 20px 0 0 0;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+main article{
+    width: 70%;
+    margin: 20px 15% 0;
+}
+main article{
+    overflow:hidden;
+    position: relative;
+}
+main article div{
+    margin-right:15px;
+    border:1px solid #c5c5c5;
+    height: 200px;
+    background-color: #dffefe;
+    box-sizing: border-box;
+}
+main article div:last-child{
+    margin: 0;
+}
+.layout-1 .left{
+    width: 30%;
+    float: left;
+}
+.layout-1 .right{
+    width: calc( 70% - 15px );
+    float: left;
+}
+.layout-2{
+    display: flex;
+}
+.layout-2 .left{
+    width: 30%;
+}
+.layout-2 .right{
+    width: calc( 70% - 15px );
+}
+.layout-3 .left{
+    width: 250px;
+    float: left;
+}
+.layout-3 .right{
+    width: calc( 100% - 265px );
+    float: left;
+}
+.layout-4{
+    display: flex;
+}
+.layout-4 .left{
+    width: 250px;
+}
+.layout-4 .right{
+    width: calc( 100% - 265px );
+}
+.layout-5 .left{
+    margin: 0 265px 0 0;
+}
+.layout-5 .right{
+    width: 250px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.layout-6{
+    display: flex;
+}
+.layout-6 .left{
+    width:calc( 100% - 265px );
+}
+.layout-6 .right{
+    width: 250px;
+}
+.layout-7 .center{
+    margin: 0 265px;
+}
+.layout-7>.left
+,.layout-7>.right{
+    width:250px;
+    position: absolute;
+    top:0;
+}
+.layout-7>.left{
+    left: 0;
+}
+.layout-7>.right{
+    right: 0;
+}
+.layout-8{
+    display: flex;
+}
+.layout-8 .center{
+    order: 1;
+    width:calc( 100% - 530px );
+}
+.layout-8 .left{
+    width:250px;
+}
+.layout-8 .right{
+    width: 250px;
+    order: 2;
+}
+.layout-9 .center{
+    width: 250px;
+    float: left;
+}
+.layout-9>.left{
+    width: 250px;
+    float: left;
+}
+.layout-9>.right{
+    float: left;
+    width: calc( 100% - 530px );
+}
+.layout-10{
+    display: flex;
+}
+.layout-10 .center{
+    order: 1;
+    width:250px;
+}
+.layout-10 .left{
+    width:250px;
+}
+.layout-10 .right{
+    width:calc( 100% - 530px );
+    order: 2;
+}
